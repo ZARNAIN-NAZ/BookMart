@@ -1,0 +1,63 @@
+body{
+    font-family:  Arial , sans-serif;
+    margin: 0;
+    background-image:url('https://img.freepik.com/premium-photo/educational-concept-books-blue_387680-275.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+h1 , h2{
+    text-align: center;
+    color: rgb(110, 18, 18);
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color:rgb(61, 38, 3);
+}
+.input-section label{
+ font-weight: bold;
+ margin-right: 10px;
+}
+.input-section input[type="number"], .input-section input[type="date"]{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(192, 44, 103);
+    color: rgb(245, 235, 216);
+    border: black solid 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.book-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th ,td{
+    border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+th{
+  background-color: #a975ac;  
+  color: rgb(230, 167, 230)55, 255, 255);
+}
+tfoot td {
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(15, 126, 35);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
